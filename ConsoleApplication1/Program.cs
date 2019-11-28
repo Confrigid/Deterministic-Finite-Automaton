@@ -51,12 +51,14 @@ namespace dfa
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("Input {0} was accepted.", s);
                 Console.ForegroundColor = ConsoleColor.White;
+                Console.ReadKey();
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.WriteLine("Input {0} was rejected.", s);
                 Console.ForegroundColor = ConsoleColor.White;
+                Console.ReadKey();
             }
 
         }
